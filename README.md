@@ -89,7 +89,7 @@ Why flag every session but post rarely: flagging costs nothing and captures the 
 
 | # | Track | Milestone | Link | Status |
 |---|---|---|---|---|
-| 1 | AI Fluency | Decide What You're Proving | _add once folder exists_ | Not started |
+| 1 | AI Fluency | Decide What You're Proving (FL-01) | [Link](./ai-fluency/week-01-proof-statement/) | ✅ FL-01 complete (week has more assignments) |
 | 2 | AI Fluency | Frame Your Work | | Not started |
 | 3 | AI Fluency | Map It & Give It a Face | | Not started |
 | 4 | AI Fluency | Pick the Stack | | Not started |
@@ -115,7 +115,8 @@ _Evolves as assignments are completed — not filled in speculatively._
 
 | Area | Skills |
 |---|---|
-| _(populated after Week 1 / Module 1)_ | |
+| AI Collaboration | Task-delegation framework application (Mollick's Centaur/Delegated/Automated model), structured workflow auditing, Claude Project configuration |
+| Documentation | Writing checkable "done well" criteria, honest gap-flagging (e.g. no test suite yet) over hiding weaknesses |
 
 ## Achievements
 
