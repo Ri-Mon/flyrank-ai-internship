@@ -6,7 +6,7 @@ Public page theme for this week. The dashboard maps more than one real assignmen
 
 | Assignment | Status | Notes | Deliverable |
 |---|---|---|---|
-| FL-01 — Workflow Audit & Tool Setup | 🚧 In progress (screenshot pending) | [fl-01-notes.md](./fl-01-notes.md) | [fl-01-workflow-audit.md](./fl-01-workflow-audit.md) |
+| FL-01 — Workflow Audit & Tool Setup | ✅ Complete | [fl-01-notes.md](./fl-01-notes.md) | [fl-01-workflow-audit.md](./fl-01-workflow-audit.md) |
 | FL-02 — _(add once confirmed from dashboard)_ | Not started | | |
 
 _Add a row per real assignment as it's confirmed from the dashboard — don't pre-guess titles or counts._

@@ -1,7 +1,7 @@
 # Week 01 — Decide What You're Proving
 
 - **Assignment:** FL-01 — Workflow Audit & Tool Setup
-- **Status:** 🚧 In progress — Claude Project screenshot still pending before this is submission-ready
+- **Status:** ✅ Complete — submitted for mentor review
 
 ---
 
@@ -38,7 +38,7 @@ Full deliverable: [`fl-01-workflow-audit.md`](./fl-01-workflow-audit.md)
 
 - Task distribution recomputed and confirmed accurate: Just Me (4) · Delegate (2) · Collaborate (6) · Fully Automate (0)
 - Cross-checked classification logic against Mollick's original framework directly, not just FlyRank's four-label adaptation
-- **Outstanding:** Claude Project configuration screenshot still needs to be captured and dropped into `./screenshots/fl-01-claude-project.png` before this is genuinely submission-ready
+- Claude Project configuration screenshot captured: `./screenshots/fl-01-claude-project-config.png`
 
 ## Reflection
 
@@ -63,4 +63,4 @@ A few wording/structure calls were made during this assignment (task vs. assignm
 ## Links
 
 - Deliverable: [`fl-01-workflow-audit.md`](./fl-01-workflow-audit.md)
-- Screenshot (pending): `./screenshots/fl-01-claude-project.png`
+- Screenshot: [`./screenshots/fl-01-claude-project-config.png`](./screenshots/fl-01-claude-project-config.png)
