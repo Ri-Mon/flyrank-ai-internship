@@ -20,13 +20,13 @@ _Add guest mentors here as they're introduced, same format: LinkedIn-linked name
 
 ## Weeks
 
-Week folders are added one at a time, as I start each one — not pre-scaffolded in advance. The dashboard shows ~30 assignments across weeks 1-9 plus a Week 10 capstone, so a given week folder may end up holding more than one assignment write-up; the folder is only created (and named) once I know its real scope from the dashboard.
+Week folders are added one at a time, as I start each one — not pre-scaffolded in advance. The dashboard confirms every week in this track holds more than one assignment (roughly 30 total across weeks 1-9, plus a Week 10 capstone), so **every week folder uses the multi-assignment index pattern from the start**, not as a later restructure: a `README.md` index table listing each assignment, plus one `[code]-notes.md` (my documentation layer) and one deliverable file per assignment, filenames prefixed by assignment code (`fl-01-*`, `fl-02-*`, ...) specifically to avoid collisions as more assignments land in the same folder.
 
-Naming convention: `week-NN-short-title/`, e.g. `week-01-proof-statement/`. Each assignment inside gets its own file following [`../templates/week-template.md`](../templates/week-template.md); the week's own `README.md` acts as a short index if it holds more than one.
+Naming convention: `week-NN-short-title/` — a short, meaningful title of my own choosing, inspired by the public page's thematic week title but not a verbatim copy of it (e.g. `week-01-proof-statement/` for the public theme "Decide What You're Proving") — this is my repo, so the folder name reads cleanly rather than replicating FlyRank's phrasing exactly. The public theme and the real dashboard assignment titles are both noted inside that week's own README for clarity.
 
 **Loose roadmap** (from the public track page — exact assignment count and titles per week confirmed on start, from the dashboard):
 
-1. Decide what you're proving
+1. [Decide what you're proving](./week-01-proof-statement/) — 🚧 in progress (FL-01: Workflow Audit & Tool Setup, screenshot pending)
 2. Frame your work as case studies
 3. Map content/CTAs + identity kit + image curation
 4. Choose your stack with AI (Three Roads exercise)
@@ -45,9 +45,9 @@ _(Fill in after Week 1 — one claim, one person, one action.)_
 
 ## My AI workspace
 
-- Main tool: _TBD (Claude / ChatGPT / Gemini — Week 1 asks you to pick one as primary and set up accounts on the others)_
-- Workspace name: _TBD_
-- Custom instructions summary: _TBD_
+- Main tool: Claude (Claude Project configured for this internship — see [FL-01 write-up](./week-01-proof-statement/fl-01-workflow-audit.md#2-toolkit-setup))
+- Secondary accounts: ChatGPT, Anthropic Academy
+- Custom instructions summary: who I am (FE intern, Python/Django background, learning React), working style (Feynman rule, learning-before-completion, challenge my assumptions), current goals (AI Fluency, AI-assisted front-end projects, GitHub documentation, LinkedIn build-in-public)
 
 ## Stack decision (Week 4)
 
