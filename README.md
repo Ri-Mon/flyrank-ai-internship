@@ -39,6 +39,8 @@ Through this internship, I aim to:
 | What | Link |
 |---|---|
 | Portfolio site (in progress) | _add once deployed_ |
+| FE capstone repo | [frontend-ai-engineering-project](https://github.com/Ri-Mon/frontend-ai-engineering-project) |
+| FE capstone live preview | _add once deployed (FE-04)_ |
 | FlyRank credential | _add once verified_ |
 
 ## Repo structure
@@ -99,7 +101,7 @@ Why flag every session but post rarely: flagging costs nothing and captures the 
 | 8 | AI Fluency | Wire One Real Thing | | Not started |
 | 9 | AI Fluency | Launch & Keep Building (Checkpoint 2) | | Not started |
 | 10 | AI Fluency | Send the Link (Capstone) | | Not started |
-| 1 | FE Track | Site Foundations | | Not started |
+| 1 | FE Track | Environment and AI Toolchain (FE-01) | [Link](./frontend-ai-engineering/week-01-setup/) | ✅ FE-01 complete (week may have more assignments) |
 | 2 | FE Track | Responsive Execution | | Not started |
 | 3 | FE Track | Storefront Patterns | | Not started |
 | 4 | FE Track | AI Implementation QA | | Not started |

@@ -57,3 +57,11 @@ Format: `## Term` → one-paragraph plain explanation → "Where I've used/seen 
 **Where I've used/seen it:** One of my own stated internship goals (LinkedIn posts on learnings); also referenced as a general practice within FlyRank's community culture.
 
 **Source(s):** General industry/community practice, not a single canonical source.
+
+## Thin Entry Point Pattern
+
+**Plain explanation:** When multiple AI tools need project instructions (Claude, Copilot, Gemini, etc.), instead of duplicating the same rules across `CLAUDE.md`, `.github/copilot-instructions.md`, and others separately, write one real source-of-truth file (e.g. `AGENTS.md`) and make each tool-specific file a short pointer to it. Keeps rules consistent across tools without maintaining N copies.
+
+**Where I've used/seen it:** Noted during FE-01 as a pattern to adopt later — not yet implemented, since only one AI tool's instructions file exists so far (`.github/copilot-instructions.md`). Revisit once genuinely using multiple tools that each need their own instructions file.
+
+**Source(s):** General AI-tooling community practice, not a single canonical source.
