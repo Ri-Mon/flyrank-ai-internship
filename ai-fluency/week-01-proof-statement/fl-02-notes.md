@@ -12,7 +12,7 @@ Draw a minimal portfolio sitemap, configure a dedicated "Portfolio Build" Claude
 Full deliverable: [`fl-02-sitemap-pressure-test.md`](./fl-02-sitemap-pressure-test.md)
 
 - Locked 4-page sitemap: Home/Hero → Work → About → Contact, with tech-stack badges merged into Work instead of a standalone page
-- Dedicated "Portfolio Build" Claude Project instructions (`fl-02-portfolio-project-instructions.md` — **pending, not yet added**) — proof statement, reasoning trail, locked sitemap, working preferences, scoped resource links
+- Dedicated "Portfolio Build" Claude Project instructions ([`fl-02-portfolio-project-instructions.md`](./fl-02-portfolio-project-instructions.md)) — proof statement, reasoning trail, locked sitemap, working preferences, scoped resource links
 - Ran the required pressure-test prompt inside that Project; captured prompt + output + resulting change note in one file
 
 ## Prompts used, and why
@@ -43,5 +43,5 @@ The pressure test's challenge to "walkthrough" was the sharpest moment here — 
 ## Links
 
 - Deliverable: [`fl-02-sitemap-pressure-test.md`](./fl-02-sitemap-pressure-test.md)
-- Portfolio Project instructions: pending
+- Portfolio Project instructions: [`fl-02-portfolio-project-instructions.md`](./fl-02-portfolio-project-instructions.md)
 - Screenshots (pending): `./screenshots/fl-02-sitemap-sketch.png`, `./screenshots/fl-02-portfolio-project-config.png`
