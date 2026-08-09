@@ -39,9 +39,11 @@ Naming convention: `week-NN-short-title/` — a short, meaningful title of my ow
 
 ## My proof statement
 
-_(Fill in after Week 1 — one claim, one person, one action.)_
+> I build frontends that turn a wall of options into something easier to explore. I'm proving this to a hiring manager deciding whether to trust me with real front-end work, so they'll book a call.
 
-> Not yet defined.
+**One-line why:** A resume can list skills; it can't show how I think about turning messy data into something useful. My portfolio can.
+
+Full deliverable: [`fl-03-proof-statement.md`](./week-01-proof-statement/fl-03-proof-statement.md). CTA choice ("book a call") recorded as [ADR-0002](../docs/decisions/0002-book-a-call-cta.md).
 
 ## My AI workspace
 
