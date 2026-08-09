@@ -8,7 +8,8 @@ One file per decision: `NNNN-short-title.md`, numbered sequentially, never renum
 
 | # | Decision | Status |
 |---|---|---|
-| _(none yet — first one lands after AI Fluency Week 4, "Pick the Stack")_ | | |
+| [0001](./0001-standalone-capstone-repo.md) | Standalone repo for the FE capstone, not the journal monorepo | Accepted |
+| [0002](./0002-book-a-call-cta.md) | "Book a call" as the portfolio's primary CTA | Accepted |
 
 ## Template
 

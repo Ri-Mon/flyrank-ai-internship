@@ -7,7 +7,8 @@ Public page theme for this week. The dashboard maps more than one real assignmen
 | Assignment | Status | Notes | Deliverable |
 |---|---|---|---|
 | FL-01 — Workflow Audit & Tool Setup | ✅ Complete | [fl-01-notes.md](./fl-01-notes.md) | [fl-01-workflow-audit.md](./fl-01-workflow-audit.md) |
-| FL-02 — _(add once confirmed from dashboard)_ | Not started | | |
+| FL-02 — Draw the Path (Sitemap + Portfolio Project + Pressure Test) | ✅ Complete | [fl-02-notes.md](./fl-02-notes.md) | [fl-02-sitemap-pressure-test.md](./fl-02-sitemap-pressure-test.md) |
+| FL-03 — What Are You Proving (Proof Statement) | ✅ Complete | [fl-03-notes.md](./fl-03-notes.md) | [fl-03-proof-statement.md](./fl-03-proof-statement.md) |
 
 _Add a row per real assignment as it's confirmed from the dashboard — don't pre-guess titles or counts._
 
