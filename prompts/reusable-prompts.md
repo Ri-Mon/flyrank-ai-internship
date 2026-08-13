@@ -111,3 +111,42 @@ and after about eight questions propose a one-paragraph proof statement.
 **Why this works:** it asks AI to *interview*, not *author* — the useful output is my own answers being pulled out of me, not AI's generic guess at what I should claim. The "push back when vague" instruction is what prevents a smooth, forgettable, generic result.
 
 **Watch out for:** if I answer vaguely myself, it can still land on something generic — the prompt only works if I actually engage with the questions honestly.
+
+---
+
+## Guided build walkthrough, from locked content to finished build (from AI Fluency FL-05)
+
+**Use case:** turning already-finalized content (proof statement, sitemap, case studies) into an actual step-by-step build guide, without AI re-litigating content that's already decided or assuming skills I don't have.
+
+**Prompt:**
+```
+Help me build a portfolio that proves I have strong {your specific skill
+claim — e.g. "front-end engineering skills," "UX research skills"}. The
+audience is {describe the one specific person you're trying to convince —
+e.g. "a hiring manager deciding whether to trust me with real front-end
+work"}.
+
+Here's what I've already built: my proof statement is "{paste your proof
+statement}." My sitemap is {list your locked pages in order}. My case study
+so far: {2-3 sentences summarizing the problem, what you did/decided, and
+the result — your honest version, not a polished pitch}.
+
+Assume everything I've described above is already finalized — don't ask me
+to write or revise it unless I specifically say otherwise. {Optional: If
+you want it to flag concerns as it goes, add: "You can point out issues
+with what I've already built if you see them, but don't stop the build
+process to do it."}
+
+Here's my actual skill level, including what I'm shaky on, so you don't
+assume more than I have: {e.g. "confident in React, haven't used Vite
+before" or "solid with HTML/CSS, still new to JavaScript"}.
+
+Walk me through this as a step-by-step build guide from where I am now to a
+finished site, with real code/commands at each step I'm unfamiliar with —
+not just described steps. Don't critique what I've already built; guide me
+forward.
+```
+
+**Why this works:** built through a six-run prompt ladder that isolated exactly one failure mode per version — a vague baseline produces generic all-rounder advice; adding a goal narrows it but drops other ground; adding audience shifts the substance of the advice; adding real context makes it specific but can tip into unwanted critique instead of guidance (a real regression worth knowing about); stating output format fixes that; and stating actual skill level (including gaps, not just strengths) stops it from silently assuming fluency I don't have. Every clause in the final prompt exists because an earlier version without it produced a specific, observed failure.
+
+**Watch out for:** dropping the "here's my actual skill level, including gaps" clause to make the prompt look cleaner — that's the exact mistake this ladder caught (Version 5 assumed Vite fluency that wasn't stated). Stating what you're *not* confident in is doing real work, not padding.
