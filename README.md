@@ -92,7 +92,7 @@ Why flag every session but post rarely: flagging costs nothing and captures the 
 | # | Track | Milestone | Link | Status |
 |---|---|---|---|---|
 | 1 | AI Fluency | Decide What You're Proving (FL-01/02/03) | [Link](./ai-fluency/week-01-proof-statement/) | ✅ FL-01/02/03 complete (week may have more assignments) |
-| 2 | AI Fluency | Frame Your Work | | Not started |
+| 2 | AI Fluency | Frame Your Work (FL-04/05) | [Link](./ai-fluency/week-02-case-studies/) | ✅ FL-04/05 complete (week may have more assignments) |
 | 3 | AI Fluency | Map It & Give It a Face | | Not started |
 | 4 | AI Fluency | Pick the Stack | | Not started |
 | 5 | AI Fluency | Ship the Ugly Version | | Not started |

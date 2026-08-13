@@ -27,7 +27,7 @@ Naming convention: `week-NN-short-title/` — a short, meaningful title of my ow
 **Loose roadmap** (from the public track page — exact assignment count and titles per week confirmed on start, from the dashboard):
 
 1. [Decide what you're proving](./week-01-proof-statement/) — 🚧 in progress (FL-01: Workflow Audit & Tool Setup, screenshot pending)
-2. Frame your work as case studies
+2. [Frame your work as case studies](./week-02-case-studies/) — ✅ complete (FL-04, FL-05)
 3. Map content/CTAs + identity kit + image curation
 4. Choose your stack with AI (Three Roads exercise)
 5. Ship every page, live and rough

@@ -12,6 +12,13 @@ with real front-end work, so they'll book a call."
 **Why this needs to exist:** A resume can list skills; it can't show how I
 think about turning messy data into something useful. My portfolio can.
 
+## Voice card (standing instruction — use for everything you draft for me)
+Confident, thoughtful, plain-spoken, honest, technical, explanatory,
+conversational. Short, real sentences — the way I'd actually explain
+something to a friend, not ad-copy pacing. No "results-driven," "passionate,"
+"leveraged," or similar buzzwords. If a line sounds generic or rushed, slow
+it down and let the reasoning show, don't just compress it to sound punchy.
+
 ## The reasoning behind this claim (so you don't relitigate it from scratch)
 - My evidence for this claim is a YouTube-replica project: fetches videos via
   API, displays them, and lets a user sort/filter by criteria.
@@ -28,22 +35,22 @@ think about turning messy data into something useful. My portfolio can.
   low-stakes enough (not a technical interrogation) to suit that strength.
 
 ## Sitemap (locked for this build)
-1. **Home / Hero** — states the claim + who it's for, in one glance. Stays
-   lean: claim + who it's for + a nudge into Work. If it starts explaining or
-   justifying the claim, it's stealing Work's job.
-2. **Work** — NOT a screenshot walkthrough. A walkthrough proves I can build a
-   filter/sort UI, not that I can think — and "how I think" is the actual
-   claim. Structure it as a case study: the wall of options as a stated
-   problem → the specific reasoning behind what I chose to sort/filter by and
-   why → what I considered and rejected → the result. Tech-stack badges tagged
-   inline (no separate Tech Stack page — deliberately merged in).
-3. **About** — brief, grounds the claim in an actual person (not skipped,
-   because my evidence base is currently thin — one project isn't yet enough
-   to carry trust without a human introduction). One job only: "why should I
-   trust this specific person with front-end work" — not a general bio or
-   career narrative, which would dilute the narrow claim.
-4. **Contact** — one clear CTA: book a call. No fragmentation into multiple
-   actions.
+1. **Home / Hero — Landing.** States the claim + who it's for, at a glance.
+   Stays lean: claim + who it's for + a nudge into Work. If it starts
+   explaining or justifying the claim, it's stealing Work's job.
+2. **Work — Believing.** NOT a screenshot walkthrough. A walkthrough proves I
+   can build a filter/sort UI, not that I can think — and "how I think" is
+   the actual claim. Structure it as a case study: the wall of options as a
+   stated problem → the specific reasoning behind what I chose to sort/filter
+   by and why → what I considered and rejected → the result. Tech-stack
+   badges tagged inline (no separate Tech Stack page — deliberately merged in).
+3. **About — Trusting.** Brief, grounds the claim in an actual person (not
+   skipped, because my evidence base is currently thin — one project isn't
+   yet enough to carry trust without a human introduction). One job only:
+   "why should I trust this specific person with front-end work" — not a
+   general bio or career narrative, which would dilute the narrow claim.
+4. **Contact — Action.** One clear CTA: book a call. No fragmentation into
+   multiple actions.
 
 **Known risk to watch for in later weeks:** this site is a single point of
 failure — one project carrying the entire claim. That's an accepted tradeoff

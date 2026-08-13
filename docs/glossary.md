@@ -65,3 +65,35 @@ Format: `## Term` → one-paragraph plain explanation → "Where I've used/seen 
 **Where I've used/seen it:** Noted during FE-01 as a pattern to adopt later — not yet implemented, since only one AI tool's instructions file exists so far (`.github/copilot-instructions.md`). Revisit once genuinely using multiple tools that each need their own instructions file.
 
 **Source(s):** General AI-tooling community practice, not a single canonical source.
+
+## Voice Card
+
+**Plain explanation:** Five to seven words describing how writing should *sound*, given to AI as a standing instruction — adjectives about the prose (confident, plain-spoken, technical), not about the person. Keeps every AI-drafted piece of copy consistent in tone without re-explaining style preferences each time.
+
+**Where I've used/seen it:** [FL-04 Frame It as Cases](../ai-fluency/week-02-case-studies/fl-04-frame-cases.md) — 7-word voice card, now a standing instruction in the Portfolio Build Claude Project.
+
+**Source(s):** FlyRank AI Fluency track assignment brief.
+
+## The Three Beats
+
+**Plain explanation:** The fixed shape a case study takes: the problem, what I did and decided, what came of it. Forces a case study to prove reasoning (the "did and decided" part), not just show a finished result.
+
+**Where I've used/seen it:** [FL-04 Frame It as Cases](../ai-fluency/week-02-case-studies/fl-04-frame-cases.md) — applied to the Tuber case study.
+
+**Source(s):** FlyRank AI Fluency track assignment brief.
+
+## Prompt Layer
+
+**Plain explanation:** One isolated addition to a prompt — goal, audience, context, output format, constraints, examples, quality criteria, stated assumptions, etc. Never bundled with another layer in the same version, so a specific output change can be traced back to a specific input change.
+
+**Where I've used/seen it:** [FL-05 The Prompt Ladder](../ai-fluency/week-02-case-studies/fl-05-prompt-ladder.md) — six runs, five distinct layers added one at a time.
+
+**Source(s):** FlyRank AI Fluency track assignment brief.
+
+## Isolation Discipline
+
+**Plain explanation:** The practice of changing exactly one variable at a time when testing/refining a prompt, so any change in output can be attributed to a specific change in input, rather than guessed at. Same principle as a controlled experiment.
+
+**Where I've used/seen it:** [FL-05 The Prompt Ladder](../ai-fluency/week-02-case-studies/fl-05-prompt-ladder.md) — the entire exercise's methodology.
+
+**Source(s):** FlyRank AI Fluency track assignment brief.
