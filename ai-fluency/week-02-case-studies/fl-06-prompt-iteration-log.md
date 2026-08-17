@@ -1,11 +1,11 @@
 # FL-06 — Prompting Fundamentals on Real Tasks v2
 
-**Name:** Md. Mahmudul Hasan Rimon
-**Date:** August 16, 2026
-**FL-01 target task used:** Target C — Reviewing my own code for bugs
-**Real task:** Adding email validation to the settings form's email field (`App.jsx`, FE-02), which currently has no real validation beyond HTML5's loose `type="email"`.
+- **Name:** Md. Mahmudul Hasan Rimon
+- **Date:** August 16, 2026
+- **FL-01 target task used:** Target C — Reviewing my own code for bugs
+- **Real task:** Adding email validation to the settings form's email field (`App.jsx`, FE-02), which currently has no real validation beyond HTML5's loose `type="email"`.
 
-Anthropic Prompt Engineering Interactive Tutorial (basics chapters) — completed separately as required by the brief.
+- Anthropic Prompt Engineering Interactive Tutorial (basics chapters) — completed separately as required by the brief.
 
 ---
 
