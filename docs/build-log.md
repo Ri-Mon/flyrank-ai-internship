@@ -21,6 +21,50 @@ Format: one entry per session, newest at the top.
 
 <!-- Add new entries above this line -->
 
+### 2026-08-16
+
+**Session focus:** FL-06 (Prompting Fundamentals on Real Tasks v2) — AI Fluency Week 2
+
+**Notes:**
+- Applied FL-01's Target C (reviewing my own code for bugs) to a genuine gap: no real email validation on FE-02's settings form
+- Stacked five named techniques in reactive order: role assignment → context/motivation → few-shot examples → step decomposition → output structure
+- Real finding: the same bug survived two separate techniques (role, then context) before few-shot examples with exact failing cases actually fixed it — proved the issue was an unspecified boundary, not a technique problem
+- Manually tested every version live in the running app with real adversarial inputs, not just reasoned about abstractly
+- Cross-model comparison (Claude vs. ChatGPT) on the same final prompt: functionally equivalent on defined test cases, but real differences in defaults — ChatGPT added accessibility attributes unprompted, Claude added forward-looking schema structure
+- Caught a real environment bug independent of the exercise: `zod` was never installed as a dependency, breaking `npm run build`
+- Cross-track connection: this session's real task IS FE-02's actual work — flagged in fl-06-notes.md as a forward pointer, since FE-02 itself isn't documented in this journal yet
+
+**Good LinkedIn-post material?** yes — "some techniques change how the model talks about a problem without changing whether it can solve it" is a genuinely specific, transferable insight
+
+### 2026-08-12
+
+**Session focus:** FL-05 (The Prompt Ladder) — AI Fluency Week 2
+
+**Notes:**
+- Built a six-run prompt ladder (baseline + 5 versions), isolating exactly one layer per version: goal → audience → real context → output format → stated assumptions
+- Refused to pre-script all six versions in advance, even though it would've been faster — reactive diagnosis based on each version's actual output was treated as non-negotiable to the exercise being real
+- Caught a genuine regression at Version 3: adding real context made the response specific, but shifted it into unwanted critique instead of guidance — fixed separately at Version 4, not smoothed over as a clean improvement
+- Kept skill gaps (not just comfort areas) in the final reusable prompt, resisting the instinct to drop them for a cleaner-looking prompt — omitting them would've reproduced the exact Vite-blind-spot bug the ladder just diagnosed
+- Final prompt added to `prompts/reusable-prompts.md` — genuinely reusable, not just an assignment artifact
+- Correct assignment numbering (FL-05) carried through cleanly this time — the earlier correction to that chat held
+
+**Good LinkedIn-post material?** yes — "fixing one wrong assumption can leave a second, different wrong assumption standing" is a transferable insight beyond just this exercise
+
+### 2026-08-10
+
+**Session focus:** FL-04 (Frame It as Cases) — AI Fluency Week 2
+
+**Notes:**
+- Wrote a 7-word voice card, now a standing instruction in the Portfolio Build Claude Project
+- Interviewed the Tuber project (video streaming app) into a three-beat case study — problem, decision, result — one question at a time rather than letting AI draft from a vague prompt
+- Verified the technical bug story (tooltip/sort-order state split) against the actual repo code, not just memory
+- Rejected three bio drafts for reading as backend/data-focused tone instead of front-end — caught "messy data" framing overshadowing "interface"
+- Built a real before/after: rejected a generic AI-drafted paragraph, rewrote it slower to let the actual reasoning show instead of compressing to ad-copy pacing
+- Surfaced rather than hid an honest weak point: the case-study project is three years old — decided not to treat that as a liability
+- Corrected a third recurring numbering error: this session's work was mislabeled FL-02 (already used) instead of FL-04 — flagged directly to the source chat this time, not just fixed silently
+
+**Good LinkedIn-post material?** yes — the "word choice can shift what role a reader assumes you're pitching for" bio catch is genuinely specific and non-generic
+
 ### 2026-08-08
 
 **Session focus:** FL-02 (Draw the Path) + FL-03 (What Are You Proving) — AI Fluency Week 1, closing out
