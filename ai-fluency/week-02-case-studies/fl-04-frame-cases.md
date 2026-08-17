@@ -1,7 +1,7 @@
 # FL-04 — Frame It as Cases
 
-**Name:** Md. Mahmudul Hasan Rimon
-**Date:** August 10, 2026
+- **Name:** Md. Mahmudul Hasan Rimon
+- **Date:** August 10, 2026
 
 ---
 
