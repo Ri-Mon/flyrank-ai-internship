@@ -1,8 +1,8 @@
 # FL-05 — The Prompt Ladder
 
-**Name:** Md. Mahmudul Hasan Rimon
-**Date:** August 12, 2026
-**Topic:** Building my AI Fluency portfolio site
+- **Name:** Md. Mahmudul Hasan Rimon
+- **Date:** August 12, 2026
+- **Topic:** Building my AI Fluency portfolio site
 
 ---
 
