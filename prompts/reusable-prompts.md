@@ -150,3 +150,53 @@ forward.
 **Why this works:** built through a six-run prompt ladder that isolated exactly one failure mode per version — a vague baseline produces generic all-rounder advice; adding a goal narrows it but drops other ground; adding audience shifts the substance of the advice; adding real context makes it specific but can tip into unwanted critique instead of guidance (a real regression worth knowing about); stating output format fixes that; and stating actual skill level (including gaps, not just strengths) stops it from silently assuming fluency I don't have. Every clause in the final prompt exists because an earlier version without it produced a specific, observed failure.
 
 **Watch out for:** dropping the "here's my actual skill level, including gaps" clause to make the prompt look cleaner — that's the exact mistake this ladder caught (Version 5 assumed Vite fluency that wasn't stated). Stating what you're *not* confident in is doing real work, not padding.
+
+---
+
+## Coding task with visible reasoning: role + context + examples + plan-first + structured output (from AI Fluency FL-06)
+
+**Use case:** any real coding task where a vague ask would produce plausible-looking but subtly wrong code — validation logic, edge-case handling, anything where "looks right" and "is right" can diverge. Built by stacking five techniques, each added only after the previous ones failed to fix a real bug.
+
+**Prompt:**
+```
+You are a senior front-end engineer who specializes in {relevant specialty
+— e.g. "form validation," "state management," "accessibility"} and writes
+production-quality {language/framework} code.
+
+This is real code from {brief description of the actual project and its
+stakes — e.g. "a live settings form users will save real data through"}.
+Right now {describe the current gap or weak point}, and I'm planning to
+fix it using {your intended tool/approach, if you have one} because {why
+— what property you actually need: maintainability, consistency, etc.}.
+
+{Describe the specific task.} Here are concrete examples of what should
+pass and fail, to guide the logic precisely rather than relying on a
+generic check:
+
+<examples>
+<example>{input} → {valid/invalid, with a one-line reason}</example>
+{add 3-5 examples covering your real edge cases}
+</examples>
+
+Before writing any code, walk through your plan: list each rule you
+intend to implement, and for each one, explain what it catches and why,
+based on the examples above. Present this as a numbered list. Only after
+the plan is complete, write the implementation — and make sure the code
+matches the plan exactly.
+
+Every part of your response — plan, code, and test cases — should make
+the reasoning visible, not just the result. Don't just tell me what the
+solution is; make sure I understand why it exists in that form, so I
+could explain it to someone else myself.
+
+Structure your response into exactly three labeled sections: **Plan**,
+**Code**, and **Test Cases** (a short table of example inputs and whether
+each should pass or fail).
+
+Here's the current code:
+{paste only the relevant file/function/component — not the whole project}
+```
+
+**Why this works:** each clause exists because a real bug survived without it. Role alone changed tone, not logic. Adding context/motivation got the right tool (Zod) but the same bug survived — proving the issue was never the technique, it was that "valid email" had never been precisely defined. Few-shot examples with the exact failing cases finally fixed it, since some rules ("realistic domain shape") are nearly impossible to state abstractly but trivial to demonstrate. Step decomposition surfaces a wrong plan before code gets written instead of after. Output structure makes the result fast to scan and verify, not just correct.
+
+**Watch out for:** skipping straight to few-shot examples without first trying role/context — the point isn't that examples are always the answer, it's diagnosing *why* a technique failed before reaching for a bigger one. Also: manually test the actual edge cases in a running app, don't just trust that code "looks" correct from reading it.

@@ -97,3 +97,19 @@ Format: `## Term` → one-paragraph plain explanation → "Where I've used/seen 
 **Where I've used/seen it:** [FL-05 The Prompt Ladder](../ai-fluency/week-02-case-studies/fl-05-prompt-ladder.md) — the entire exercise's methodology.
 
 **Source(s):** FlyRank AI Fluency track assignment brief.
+
+## Step Decomposition
+
+**Plain explanation:** Instructing the model to produce and justify a plan before writing any implementation, so a wrong plan can be caught and corrected before code exists, not after. Makes reasoning visible instead of buried inside a finished answer.
+
+**Where I've used/seen it:** [FL-06 Prompting Fundamentals v2](../ai-fluency/week-02-case-studies/fl-06-prompt-iteration-log.md) — Version 4, required a numbered rule-by-rule plan before any code.
+
+**Source(s):** FlyRank AI Fluency track assignment brief; general prompt-engineering practice.
+
+## Few-Shot Examples as Boundary-Setting
+
+**Plain explanation:** Giving explicit labeled valid/invalid examples works best specifically when a rule is hard to state abstractly — "realistic email" is nearly impossible to define in plain language, but trivial to demonstrate with a handful of labeled pass/fail cases.
+
+**Where I've used/seen it:** [FL-06 Prompting Fundamentals v2](../ai-fluency/week-02-case-studies/fl-06-prompt-iteration-log.md) — the technique that actually fixed a bug two other named techniques (role, context) failed to fix.
+
+**Source(s):** Anthropic's own prompt-engineering guidance; confirmed directly by this session's result.

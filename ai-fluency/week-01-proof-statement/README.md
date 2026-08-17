@@ -10,8 +10,6 @@ Public page theme for this week. The dashboard maps more than one real assignmen
 | FL-02 — Draw the Path (Sitemap + Portfolio Project + Pressure Test) | ✅ Complete | [fl-02-notes.md](./fl-02-notes.md) | [fl-02-sitemap-pressure-test.md](./fl-02-sitemap-pressure-test.md) |
 | FL-03 — What Are You Proving (Proof Statement) | ✅ Complete | [fl-03-notes.md](./fl-03-notes.md) | [fl-03-proof-statement.md](./fl-03-proof-statement.md) |
 
-_Add a row per real assignment as it's confirmed from the dashboard — don't pre-guess titles or counts._
-
 ## Notes
 
 - File naming inside this folder is prefixed by assignment (`fl-01-*`, `fl-02-*`, ...) specifically to avoid collisions once more than one assignment's files live here.

@@ -21,6 +21,21 @@ Format: one entry per session, newest at the top.
 
 <!-- Add new entries above this line -->
 
+### 2026-08-16
+
+**Session focus:** FL-06 (Prompting Fundamentals on Real Tasks v2) — AI Fluency Week 2
+
+**Notes:**
+- Applied FL-01's Target C (reviewing my own code for bugs) to a genuine gap: no real email validation on FE-02's settings form
+- Stacked five named techniques in reactive order: role assignment → context/motivation → few-shot examples → step decomposition → output structure
+- Real finding: the same bug survived two separate techniques (role, then context) before few-shot examples with exact failing cases actually fixed it — proved the issue was an unspecified boundary, not a technique problem
+- Manually tested every version live in the running app with real adversarial inputs, not just reasoned about abstractly
+- Cross-model comparison (Claude vs. ChatGPT) on the same final prompt: functionally equivalent on defined test cases, but real differences in defaults — ChatGPT added accessibility attributes unprompted, Claude added forward-looking schema structure
+- Caught a real environment bug independent of the exercise: `zod` was never installed as a dependency, breaking `npm run build`
+- Cross-track connection: this session's real task IS FE-02's actual work — flagged in fl-06-notes.md as a forward pointer, since FE-02 itself isn't documented in this journal yet
+
+**Good LinkedIn-post material?** yes — "some techniques change how the model talks about a problem without changing whether it can solve it" is a genuinely specific, transferable insight
+
 ### 2026-08-12
 
 **Session focus:** FL-05 (The Prompt Ladder) — AI Fluency Week 2
